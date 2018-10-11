@@ -39,7 +39,7 @@ class Counter1 extends Component {
     const { counter } = this.state;
     return (
       <div className="counter">
-
+        <h2>COUNTER1</h2>
         <Button
         fff={this.decrement.bind(this)}
         ></Button>

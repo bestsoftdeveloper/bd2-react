@@ -38,6 +38,7 @@ class Counter extends Component {
     const { counter } = this.state;
     return (
       <div className="counter">
+        <h2>COUNTER</h2>
         <button
         onClick={this.add.bind(this)}
         > add </button>
